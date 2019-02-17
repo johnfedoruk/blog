@@ -50,16 +50,16 @@ openssl rsa -in priv.pem -outform PEM -pubout > pub.pem
 
 Okay, now we've got our key pair: `priv.pem` and `pub.pem`
 
-#### Next: [AES Encryption and Decryption](/posts/sending-secrets-with-openssl-aes-encryption-and-decryption)
+#### Next: [AES Encryption and Decryption](../sending-secrets-with-openssl-aes-encryption-and-decryption)
 
-#### Back: [Introduction](/posts/sending-secrets-with-openssl-getting-started)
+#### Back: [Introduction](../sending-secrets-with-openssl-getting-started)
 
 ## Jump to
 
-* [Introduction](/posts/sending-secrets-with-openssl-getting-started)
-* [Key Generation](/posts/sending-secrets-with-openssl-key-generation)
-* [AES Encryption and Decryption](/posts/sending-secrets-with-openssl-aes-encryption-and-decryption)
-* [RSA Encryption and Decryption](/posts/sending-secrets-with-openssl-rsa-encryption-and-decryption)
-* [Generating a Digital Signature](/posts/sending-secrets-with-openssl-digital-signatures)
-* [Putting It All Together](/posts/sending-secrets-with-openssl-putting-it-all-together)
+* [Introduction](../sending-secrets-with-openssl-getting-started)
+* [Key Generation](../sending-secrets-with-openssl-key-generation)
+* [AES Encryption and Decryption](../sending-secrets-with-openssl-aes-encryption-and-decryption)
+* [RSA Encryption and Decryption](../sending-secrets-with-openssl-rsa-encryption-and-decryption)
+* [Generating a Digital Signature](../sending-secrets-with-openssl-digital-signatures)
+* [Putting It All Together](../sending-secrets-with-openssl-putting-it-all-together)
 
