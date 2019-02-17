@@ -56,7 +56,7 @@ Okay, now we've got our key pair: `priv.pem` and `pub.pem`
 
 ## Jump to
 
-* [Introduction](../sending-secrets-getting-started)
+* [Introduction](../../crypto/sending-secrets-getting-started)
 * [Key Generation](../sending-secrets-key-generation)
 * [AES Encryption and Decryption](../sending-secrets-aes-crypto)
 * [RSA Encryption and Decryption](../sending-secrets-rsa-crypto)
