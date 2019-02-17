@@ -20,14 +20,14 @@ We can create a digital signature to identify ourselves. We do this by creating 
 
 We can then send off the encrypted file and the encrypted AES encryption key with our digital signature. The recipient should then be able to use their private key to decrypt the AES key, use our public key and the digital signature to validate the AES key was encrypted by us, then use the AES key to decrypt the file. We have successfully sent a secret message!
 
-#### Next: [Key Generation](../sending-secrets-with-openssl-key-generation)
+#### Next: [Key Generation](../sending-secrets-key-generation)
 
 ## Jump to
 
-* [Introduction](../sending-secrets-with-openssl-getting-started)
-* [Key Generation](../sending-secrets-with-openssl-key-generation)
-* [AES Encryption and Decryption](../sending-secrets-with-openssl-aes-encryption-and-decryption)
-* [RSA Encryption and Decryption](../sending-secrets-with-openssl-rsa-encryption-and-decryption)
-* [Generating a Digital Signature](../sending-secrets-with-openssl-digital-signatures)
-* [Putting It All Together](../sending-secrets-with-openssl-putting-it-all-together)
+* [Introduction](../sending-secrets-getting-started)
+* [Key Generation](../sending-secrets-key-generation)
+* [AES Encryption and Decryption](../sending-secrets-aes-crypto)
+* [RSA Encryption and Decryption](../sending-secrets-rsa-crypto)
+* [Generating a Digital Signature](../sending-secrets-signatures)
+* [Putting It All Together](../sending-secrets-summary)
 
