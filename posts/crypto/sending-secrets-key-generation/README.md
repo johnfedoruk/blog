@@ -50,16 +50,16 @@ openssl rsa -in priv.pem -outform PEM -pubout > pub.pem
 
 Okay, now we've got our key pair: `priv.pem` and `pub.pem`
 
-#### Next: [AES Encryption and Decryption](../sending-secrets-aes-crypto)
+#### Next: [AES Encryption and Decryption](../../../posts/crypto/sending-secrets-aes-crypto)
 
-#### Back: [Introduction](../sending-secrets-getting-started)
+#### Back: [Introduction](../../../posts/crypto/sending-secrets-getting-started)
 
 ## Jump to
 
-* [Introduction](../../crypto/sending-secrets-getting-started)
-* [Key Generation](../sending-secrets-key-generation)
-* [AES Encryption and Decryption](../sending-secrets-aes-crypto)
-* [RSA Encryption and Decryption](../sending-secrets-rsa-crypto)
-* [Generating a Digital Signature](../sending-secrets-signatures)
-* [Putting It All Together](../sending-secrets-summary)
+* [Introduction](../../../posts/crypto/sending-secrets-getting-started)
+* [Key Generation](../../../posts/crypto/sending-secrets-key-generation)
+* [AES Encryption and Decryption](../../../posts/crypto/sending-secrets-aes-crypto)
+* [RSA Encryption and Decryption](../../../posts/crypto/sending-secrets-rsa-crypto)
+* [Generating a Digital Signature](../../../posts/crypto/sending-secrets-signatures)
+* [Putting It All Together](../../../posts/crypto/sending-secrets-summary)
 
