@@ -58,15 +58,15 @@ Alternatively, to decrypt `aeskey.txt.rsa.base64` using `priv.pem`
 openssl rsautl -decrypt -in <( cat aeskey.txt.rsa.base64 | base64 -d ) -inkey priv.pem >\r\n aeskey.txt
 ```
 
-#### Next: [Generating a Digital Signature](../../../posts/crypto/sending-secrets-with-openssl-digital-signatures)
+#### Next: [Generating a Digital Signature](../../../posts/crypto/sending-secrets-signatures)
 
-#### Back: [AES Encryption and Decryption](../../../posts/crypto/sending-secrets-with-openssl-aes-encryption-and-decryption)
+#### Back: [AES Encryption and Decryption](../../../posts/crypto/sending-secrets-aes-crypto)
 
 ## Jump to
 
-* [Introduction](../../../posts/crypto/sending-secrets-with-openssl-getting-started)
-* [Key Generation](../../../posts/crypto/sending-secrets-with-openssl-key-generation)
-* [AES Encryption and Decryption](../../../posts/crypto/sending-secrets-with-openssl-aes-encryption-and-decryption)
-* [RSA Encryption and Decryption](../../../posts/crypto/sending-secrets-with-openssl-rsa-encryption-and-decryption)
-* [Generating a Digital Signature](../../../posts/crypto/sending-secrets-with-openssl-digital-signatures)
-* [Putting It All Together](../../../posts/crypto/sending-secrets-with-openssl-putting-it-all-together)
+* [Introduction](../../../posts/crypto/sending-secrets-getting-started)
+* [Key Generation](../../../posts/crypto/sending-secrets-key-generation)
+* [AES Encryption and Decryption](../../../posts/crypto/sending-secrets-aes-crypto)
+* [RSA Encryption and Decryption](../../../posts/crypto/sending-secrets-rsa-crypto)
+* [Generating a Digital Signature](../../../posts/crypto/sending-secrets-signatures)
+* [Putting It All Together](../../../posts/crypto/sending-secrets-summary)

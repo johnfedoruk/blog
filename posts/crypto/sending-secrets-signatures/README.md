@@ -60,15 +60,15 @@ openssl dgst -sha512 -verify pub.pem -signature <( cat aeskey.txt.sha512.signatu
 
 Either way, we should expect the output to be _Verified OK_.
 
-#### Next: [Putting It All Together](../../../posts/crypto/sending-secrets-with-openssl-putting-it-all-together)
+#### Next: [Putting It All Together](../../../posts/crypto/sending-secrets-summary)
 
-#### Back: [RSA Encryption and Decryption](../../../posts/crypto/sending-secrets-with-openssl-rsa-encryption-and-decryption)
+#### Back: [RSA Encryption and Decryption](../../../posts/crypto/sending-secrets-rsa-crypto)
 
 ## Jump to
 
-* [Introduction](../../../posts/crypto/sending-secrets-with-openssl-getting-started)
-* [Key Generation](../../../posts/crypto/sending-secrets-with-openssl-key-generation)
-* [AES Encryption and Decryption](../../../posts/crypto/sending-secrets-with-openssl-aes-encryption-and-decryption)
-* [RSA Encryption and Decryption](../../../posts/crypto/sending-secrets-with-openssl-rsa-encryption-and-decryption)
-* [Generating a Digital Signature](../../../posts/crypto/sending-secrets-with-openssl-digital-signatures)
-* [Putting It All Together](../../../posts/crypto/sending-secrets-with-openssl-putting-it-all-together)
+* [Introduction](../../../posts/crypto/sending-secrets-getting-started)
+* [Key Generation](../../../posts/crypto/sending-secrets-key-generation)
+* [AES Encryption and Decryption](../../../posts/crypto/sending-secrets-aes-crypto)
+* [RSA Encryption and Decryption](../../../posts/crypto/sending-secrets-rsa-crypto)
+* [Generating a Digital Signature](../../../posts/crypto/sending-secrets-signatures)
+* [Putting It All Together](../../../posts/crypto/sending-secrets-summary)

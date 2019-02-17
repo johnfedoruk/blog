@@ -82,13 +82,13 @@ Whoo! Now watch `cat_video.mp4` and relax!
 
 We want to send a file `cat_video.mp4` to a friend. We can generate the RSA key pair `pub.pem` and `priv.pem` and the AES key `aeskey.txt`. We can encrypt `cat_video.mp4` using the cipher AES 256 in CBC mode to get the file `cat_video.mp4.aes256cbc` or we can decrypt `cat_video.mp4.aes256cbc` to get back `cat_video.mp4`. We know how to encrypt the AES key using someone's RSA public key to generate `aeskey.txt.rsa`, our how to use our own RSA private key to decrypt `aeskey.txt.rsa` (encrypted with our key) to get back the plaintext `aeskey.txt`. Finally, we know how to create a signature using our private key and the plaintext message `aeskey.txt`, and we know how to verify a signature using someone else's private key and the decrypted `aeskey.txt.rsa`. We know a lot!
 
-#### Back: [Generating a Digital Signature](../../../posts/crypto/sending-secrets-with-openssl-digital-signatures)
+#### Back: [Generating a Digital Signature](../../../posts/crypto/sending-secrets-signatures)
 
 ## Jump to
 
-*   [Introduction](../../../posts/crypto/sending-secrets-with-openssl-getting-started)
-*   [Key Generation](../../../posts/crypto/sending-secrets-with-openssl-key-generation)
-*   [AES Encryption and Decryption](../../../posts/crypto/sending-secrets-with-openssl-aes-encryption-and-decryption)
-*   [RSA Encryption and Decryption](../../../posts/crypto/sending-secrets-with-openssl-rsa-encryption-and-decryption)
-*   [Generating a Digital Signature](../../../posts/crypto/sending-secrets-with-openssl-digital-signatures)
-*   [Putting It All Together](../../../posts/crypto/sending-secrets-with-openssl-putting-it-all-together)
+* [Introduction](../../../posts/crypto/sending-secrets-getting-started)
+* [Key Generation](../../../posts/crypto/sending-secrets-key-generation)
+* [AES Encryption and Decryption](../../../posts/crypto/sending-secrets-aes-crypto)
+* [RSA Encryption and Decryption](../../../posts/crypto/sending-secrets-rsa-crypto)
+* [Generating a Digital Signature](../../../posts/crypto/sending-secrets-signatures)
+* [Putting It All Together](../../../posts/crypto/sending-secrets-summary)

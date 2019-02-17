@@ -56,15 +56,15 @@ Or to decrypt `cat_video.mp4.aes256cbc.base64` using `aeskey.txt`
 openssl enc -d -aes-256-cbc -in <( cat cat_video.mp4.aes256cbc.base64 | base64 -d) -kfile aeskey.txt > cat_video.mp4
 ```
 
-#### Next: [RSA Encryption and Decryption](../../../posts/crypto/sending-secrets-with-openssl-rsa-encryption-and-decryption)
+#### Next: [RSA Encryption and Decryption](../../../posts/crypto/sending-secrets-rsa-crypto)
 
-#### Back: [Key Generation](../../../posts/crypto/sending-secrets-with-openssl-key-generation)
+#### Back: [Key Generation](../../../posts/crypto/sending-secrets-key-generation)
 
 ## Jump to
 
-*   [Introduction](../../../posts/crypto/sending-secrets-with-openssl-getting-started)
-*   [Key Generation](../../../posts/crypto/sending-secrets-with-openssl-key-generation)
-*   [AES Encryption and Decryption](../../../posts/crypto/sending-secrets-with-openssl-aes-encryption-and-decryption)
-*   [RSA Encryption and Decryption](../../../posts/crypto/sending-secrets-with-openssl-rsa-encryption-and-decryption)
-*   [Generating a Digital Signature](../../../posts/crypto/sending-secrets-with-openssl-digital-signatures)
-*   [Putting It All Together](../../../posts/crypto/sending-secrets-with-openssl-putting-it-all-together)
+* [Introduction](../../../posts/crypto/sending-secrets-getting-started)
+* [Key Generation](../../../posts/crypto/sending-secrets-key-generation)
+* [AES Encryption and Decryption](../../../posts/crypto/sending-secrets-aes-crypto)
+* [RSA Encryption and Decryption](../../../posts/crypto/sending-secrets-rsa-crypto)
+* [Generating a Digital Signature](../../../posts/crypto/sending-secrets-signatures)
+* [Putting It All Together](../../../posts/crypto/sending-secrets-summary)
